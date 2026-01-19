@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Codejet AI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui, sans-serif;
+      background: #0b0d12;
+      color: #ffffff;
+    }
+
+    h1 {
+      margin-bottom: 4px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 120px;
+      margin-top: 12px;
+      background: #151823;
+      color: #ffffff;
+      border: none;
+      padding: 10px;
+      resize: vertical;
+    }
+
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 10px;
+      background: #ffb703;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    pre {
+      margin-top: 14px;
+      background: #151823;
+      padding: 10px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+<h1>✈️ Codejet AI</h1>
+<p>Núcleo de IA do projeto Codejet</p>
+
+<textarea id="prompt" placeholder="Digite sua pergunta..."></textarea>
+<button id="ask">Perguntar</button>
+
+<pre id="result">A resposta aparecerá aqui.</pre>
+
+<script src="ai.js"></script>
+
+</body>
+</html>
